@@ -15,6 +15,7 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
 nav {
     display: flex;
     gap: 20px;
@@ -30,30 +31,50 @@ a {
     width: 200px;
 }
 
-#usuario{
+#usuario {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-#menu{
-    display:flex;
+#menu {
+    display: flex;
     align-items: center;
 }
 
 .usuarioImg {
-    margin-right:40px;
+    margin-right: 40px;
     height: 80px;
     width: 150px;
     float: right;
 }
 
-.username{
+.username {
     color: rgb(255, 255, 255);
 }
-main{
+
+main {
     background-color: black;
 }
-footer{
+
+footer {
     background-color: black;
+}
+#narcos1{
+    color: white;
+    margin-left: 20px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/b9d9a6cb0cf523f131b6b153a675ab5956dd63f7.png);
+    background-size: cover;
+}
+#narcos h1{
+    font-size: 70px;
+}
+#narcos h3{
+    margin-left: 10px;
+    font-size:medium;
+}
+#narcosp{
+    width: 30%;
 }
