@@ -78,3 +78,17 @@ footer {
 #narcosp{
     width: 30%;
 }
+@media (max-width: 600px) {
+  section {
+    width: 95%;
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
