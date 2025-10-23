@@ -78,17 +78,45 @@ footer {
 #narcosp{
     width: 30%;
 }
-@media (max-width: 600px) {
-  section {
-    width: 95%;
-    padding: 15px;
-  }
 
-  h2 {
-    font-size: 1.1rem;
-  }
+#menuB{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
 
-  p {
-    font-size: 0.9rem;
-  }
+#menuMobile{
+    display: none;
+}
+@media screen and (max-width: 800px) {
+    header{
+        display: flex;
+        justify-content: center;
+        height: auto;
+        gap: 40px;
+    }
+
+    #menu{
+        width: 100%;
+         display: flex;
+        justify-content: space-around;
+    }
+
+    #menuPc{
+        display: none;
+    }
+
+    #menuMobile{
+        display: none;
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+}
+ #menuMobile a{
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        border-bottom: 1px solid white;
+}
 }
